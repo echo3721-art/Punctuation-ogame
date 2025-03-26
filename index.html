@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W OS</title>
+    <link rel="stylesheet" href="wos.css">
+</head>
+<body>
+    <h1>Welcome to W OS</h1>
+    <div id="desktop"></div>
+
+    <div id="terminal" class="window">
+        <h3>Terminal</h3>
+        <div id="terminalOutput"></div>
+        <input type="text" id="commandInput" placeholder="Enter command...">
+        <button onclick="closeWindow('terminal')">Close</button>
+    </div>
+
+    <div id="settings" class="window">
+        <h3>Settings</h3>
+        <button onclick="changeWallpaper()">Change Wallpaper</button>
+        <button onclick="closeWindow('settings')">Close</button>
+    </div>
+
+    <div id="byWilliam">By William</div>
+    <div class="app-icon" onclick="openApp('maze-game')">Maze Game</div>
+
+    <a href="https://www.mediafire.com/file/wutbhe88ih225t9/Wos.apk/file" class="download-button" target="_blank">Download Wos Android</a>
+
+    <script src="wos.js"></script>
+</body>
+</html>
